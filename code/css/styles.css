@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "martin-mono";
+  src: url("/code/assets/fonts/martian-mono/static/MartianMono-Regular.ttf");
+  src: url("/code/assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf");
+  src: url("/code/assets/fonts/martian-mono/static/MartianMono-Bold.ttf");
+}
+
+/* COLOR PALETTE */
+
+:root {
+  --neutral-900: #062630;
+  --neutral-700: #385159;
+  --neutral-200: #e6e1df;
+  --neutral-100: #faf5f3;
+  --neutral-0: #ffffff;
+  --light-salmon-500: #fea36f;
+  --light-salmon-100: #ffe2d1;
+  --light-salmon-50: #fff5ef;
+}
+
+/* SPACING */
+
+:root {
+  --spacing-0: 0;
+  --spacing-025: 2px;
+  --spacing-50: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+}
+
+body {
+  font-family: "martin-mono", sans-serif;
+  font-family: 16px;
+}
