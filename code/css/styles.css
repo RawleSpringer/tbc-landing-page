@@ -73,8 +73,9 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
-  padding-left: 135px;
-  padding-right: 135px;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
+  padding-bottom: 6.6rem;
   /* max-height: 600px;
   padding-left: 135px;
   padding-right: 135px; */
@@ -160,4 +161,113 @@ social-proof-data p {
   width: 100%;
   max-width: 54rem;
   border-radius: 10px;
+}
+
+/*  SECTION FEATURES */
+
+.section-features {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.section-features-detail {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.section-features-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.section-features-title {
+  color: var(--neutral-900);
+  font-size: 5rem;
+  line-height: 1.3;
+  letter-spacing: -2px;
+}
+
+.section-features-img-wrapper {
+  flex: 1;
+  max-width: 50%;
+}
+
+.section-features-img-wrapper img {
+  width: 100%;
+}
+
+.section-features-list {
+  margin-top: 3.4rem;
+  color: var(--neutral-700);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-features-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 2rem;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.section-features-value-proposition {
+  color: var(--neutral-700);
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+}
+
+.section-steps {
+  margin-left: 13.5rem;
+  margin-right: 13.5rem;
+  background-color: var(--neutral-100);
+  padding-top: 8rem;
+  min-height: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.section-steps-title {
+  color: var(--neutral-900);
+  font-size: 5rem;
+  line-height: 1.3;
+  letter-spacing: -2px;
+  max-width: 51.2rem;
+  text-align: center;
+}
+
+.section-steps-list {
+  display: flex;
+  color: var(--neutral-900);
+  gap: 1rem;
+}
+
+.section-steps-list li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-steps-list li > p {
+  margin-top: 0.8rem;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  letter-spacing: -1px;
+}
+
+.last-step {
+  visibility: hidden;
 }
