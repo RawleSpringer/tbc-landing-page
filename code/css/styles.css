@@ -271,3 +271,90 @@ social-proof-data p {
 .last-step {
   visibility: hidden;
 }
+
+.section-member-options {
+  margin: 12rem 23.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.section-member-options-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.section-member-options-title {
+  font-size: 5rem;
+  line-height: 1.3;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.section-member-option {
+  min-width: 26.8rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  border: var(--neutral-200) solid 1px;
+  padding: 2.4rem;
+  border-radius: 8px;
+}
+
+.section-member-option-main {
+  flex: 1;
+  background-color: var(--neutral-100);
+}
+
+.section-member-option-title {
+  font-size: 2.4rem;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  color: var(--neutral-900);
+}
+
+.section-member-option-pricing {
+  display: flex;
+  align-items: center;
+}
+
+.section-member-option-pricing strong {
+  font-size: 3.4rem;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  color: var(--neutral-900);
+}
+
+.section-member-option-pricing span {
+  color: var(--neutral-700);
+  font-size: 2rem;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+}
+
+.section-member-option-perks li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 1.6rem;
+}
+
+.section-member-option-perks li > p {
+  color: var(--neutral-700);
+  font-size: 2rem;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+}
+
+.section-member-option-perks-cta {
+  padding: 2rem 4.3rem;
+  background-color: var(--light-salmon-50);
+  border: var(--neutral-900) 2px solid;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
